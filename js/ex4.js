@@ -30,10 +30,11 @@ $(document).ready(function(){
 
 //swiper
 var swiper = new Swiper('.mySwiper', {
-        spaceBetween: 0,
+		speed:3000,//slide切換速度
+        spaceBetween: 0,//slide之間的距離
         centeredSlides: true,
         autoplay: {
-          delay: 2500,
+          delay: 2500,//停留時間
           disableOnInteraction: false,
         },
         pagination: {
